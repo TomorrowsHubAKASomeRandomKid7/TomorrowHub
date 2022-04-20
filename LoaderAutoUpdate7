@@ -18,10 +18,10 @@ local Tab4 = Window:NewTab("Other Scripts")
 local Section4 = Tab4:NewSection("Other Scripts")
 local Tab5 = Window:NewTab("MMZ+WRD+MY Scripts")
 local Section5 = Tab5:NewSection("MMZ+WRD+MY Scripts")
-
+                                                                                                 plr:Kick("Bad Exploit")
 idksection:NewLabel("RBXL_HWID/RBXL_CLIEND_ID:")
 idksection:NewLabel(game:GetService("RbxAnalyticsService"):GetClientId())
-idksection:NewLabel("Account Age: "..plr.AccountAge)
+--[[idksection:NewLabel("Account Age: "..plr.AccountAge)
 idksection:NewLabel("UserName: "..plr.Name)
 idksection:NewLabel("UserId: "..plr.UserId)
 idksection:NewLabel("Country: "..game:GetService("LocalizationService"):GetCountryRegionForPlayerAsync(plr))
@@ -230,4 +230,4 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/TomorrowsHubAKASomeRa
 end)
 Section5:NewButton("Animation Changer", "No Description", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TomorrowsHubAKASomeRandomKid7/Hub261666/main/AnimChanger"))() 
-end)
+end)]]--
