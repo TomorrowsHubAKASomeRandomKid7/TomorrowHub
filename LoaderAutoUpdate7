@@ -377,6 +377,11 @@ MMZWRDMyScripts:AddButton({
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/TomorrowsHubAKASomeRandomKid7/Hub261666/main/AnimChanger"))() 
 	end
+})MMZWRDMyScripts:AddButton({
+	Name = "Nweko Simwulator OLD Game Enabler",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TomorrowsHubAKASomeRandomKid7/Hub261666/main/NwekoSimwulatorOldGameReEnabled"))()
+	end
 })
 NwekoSimwulator:AddButton({
 	Name = "Crash Server",
